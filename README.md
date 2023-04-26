@@ -160,7 +160,9 @@ a. This is the sensor that I used in this project:
 LDR light sensor (measuring range from 0 to 10,000 lux, accuracy ±2%, resolution 0.1 lux):
 
 <div align="center">
+
 ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.004.png)
+
 </div>
 
 The LDR light sensor module could be a sort of sensor used to measure the ambient light concentrated within the encompassing environment. Here are a few particular technical specifications and a clarification of why these parameter values are utilised for the purpose of light sensing in a classroom as an elective to manually checking and turning off lights in each room.
@@ -228,20 +230,29 @@ This is the equipments that I used for this project:
 
 
 <div align="center">
-|esp32|Light sensor|
+
+| esp32 | Light sensor |
 | :-: | :-: |
-|![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.005.jpeg)|![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.006.jpeg)|
+| ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.005.jpeg) | ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.006.jpeg) |
+
 </div>
+
   
 For the connection, in the light sensor there are 3 pins: DO (data output), GND (ground) and VCC (power supply). Consequently, they will be connected to esp32 with the order: VCC is connected to 3V3 pin of esp32, GND is connected to GND of esp32 and finally the pin DO is connected to VP (which is the GPIO36).
+
 <div align="center">
+
 ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.007.png)
+
 </div>
 For this project I am only able to do the offline part and haven’t been able to do the User Interface along with the connection to Firebase database. For some reason, when doing the experiment the system still working fine but then when testing after several days later, it got some weird error that I still haven’t been able to deal with (I cannot determine that where do the error come from, the hardware or the software in order to debug the system) 
 
 The experiment is show in the link below:
 <div align="center">
+
 |[Experiments videos](https://drive.google.com/file/d/1lRToe7YTHWUWB6r1Ir-H4hHG45-Z2bqk/view?usp=sharing)|
+| :-: |
+
 </div>
 # <a name="_rvbtuew7ycvt"></a>5. Conclusion
 After all the implementation, now we will come to the conclusion and make discussion from what we have done.
