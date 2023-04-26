@@ -1,4 +1,6 @@
-﻿UNIVERSITY OF SCIENCE AND TECHNOLOGY OF HANOI
+<center>
+
+UNIVERSITY OF SCIENCE AND TECHNOLOGY OF HANOI
 
 ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.001.png)
 
@@ -16,7 +18,7 @@ Title:
 <a name="_p01k3zgugllg"></a> **Automatic Light-Checking System**
 
 
-
+</center>
 
 
 
