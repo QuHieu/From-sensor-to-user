@@ -97,12 +97,20 @@ Based on the additional information that the communication in the light sensor s
 
 These are the main components of the smart decision-making system for the light sensor system using an ESP32 microcontroller and an LDR light sensor with communication through Firebase. The specific functionalities, interactions, and requirements of each component may vary depending on the system design and implementation approach.
 ## <a name="_6kdg2svce0n9"></a>• Design the system architecture using a diagram to show the relationship between components and how they interact.
+
+<div align="center">
+  
 ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.002.png)
+  
+</div>
 
 All the components are stated in the previous part and this diagram will show the interaction between components: The user will use the Mobile app or the Web Dashboard to interact with the system (get analytic or receive notification). In the diagram, the dash-arrow shows the read action while the normal arrow shows the write action. As visualised above, we can see that all the components are strongly connected with write and read action, except for the sensor which is only responsible for the write action to send back the data of the environment to the controller for further analysis.
 ## <a name="_k1ged71uyjse"></a>• Present the diagram using PlantUML code to describe the system.
+
 <div align="center">
+  
 ![](Aspose.Words.a80a02c4-f511-47e0-bab8-2c4fec575daa.003.png)
+
 </div>
 
 This is the diagram shown for the algorithm used for control the led of esp32, that will be discuss below with the used of the window:
@@ -254,6 +262,7 @@ The experiment is show in the link below:
 | :-: |
 
 </div>
+
 # <a name="_rvbtuew7ycvt"></a>5. Conclusion
 After all the implementation, now we will come to the conclusion and make discussion from what we have done.
 ## <a name="_dae926khl7ob"></a>• Evaluate the designed system's overall effectiveness in meeting real-world applications' needs.
