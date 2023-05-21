@@ -92,5 +92,6 @@ Feel free to modify the code according to your requirements and experiment with 
 
 Below is the sequence diagram that show how does the component interact with each other:
 <img src="architechture.png" alt="Usercase">
+<br>
 And this is the diagram shows how does the algorithm works:
 <img src="algorithm.png" alt="Algorithm">
